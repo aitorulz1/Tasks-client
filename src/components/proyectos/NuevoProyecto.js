@@ -82,7 +82,7 @@ export default function NuevoPoryecto() {
 
             }
             
-            {errorformulario ? <p className=''>El campo está vacío</p> : null}
+            {errorformulario ? <p className="mensaje error">El campo está vacío</p> : null}
 
         </>
     )
